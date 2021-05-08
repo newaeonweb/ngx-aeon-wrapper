@@ -12,6 +12,9 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ],
       "ngx-aeon-wrapper": [
         "dist/ngx-aeon-wrapper/ngx-aeon-wrapper",
         "dist/ngx-aeon-wrapper"

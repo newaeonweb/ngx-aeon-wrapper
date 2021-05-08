@@ -1,0 +1,48 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ngx-aeon-wrapper": {
+      "projectType": "library",
+      "root": "projects/ngx-aeon-wrapper",
+      "sourceRoot": "projects/ngx-aeon-wrapper/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ngx-aeon-wrapper/tsconfig.lib.json",
+            "project": "projects/ngx-aeon-wrapper/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-aeon-wrapper/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-aeon-wrapper/src/test.ts",
+            "tsConfig": "projects/ngx-aeon-wrapper/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-aeon-wrapper/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-aeon-wrapper/tsconfig.lib.json",
+              "projects/ngx-aeon-wrapper/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-aeon-wrapper"
+}

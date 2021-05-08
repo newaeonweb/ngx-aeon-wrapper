@@ -2,10 +2,27 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13.
 
+## What is it or what does this project do?
+
+The intention of this project is to create reusable components encapsulating their use, so it is possible to use any UI framework such as Angular Material, Bootstrap, Bulma, among others.
+
+By default we use Angular Material.
+
+Feel free to contribute.
+
+## How to use
+
+Just install like any other npm package:
+
+```
+npm i ngx-aeon-wrapper
+```
+
 ## Code scaffolding
 
 Run `ng generate component component-name --project ngx-aeon-wrapper` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-aeon-wrapper`.
-> Note: Don't forget to add `--project ngx-aeon-wrapper` or else it will be added to the default project in your `angular.json` file. 
+
+> Note: Don't forget to add `--project ngx-aeon-wrapper` or else it will be added to the default project in your `angular.json` file.
 
 ## Build
 

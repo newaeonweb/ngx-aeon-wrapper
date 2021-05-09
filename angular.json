@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/ngx-aeon-wrapper",
       "sourceRoot": "projects/ngx-aeon-wrapper/src",
-      "prefix": "lib",
+      "prefix": "cw",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

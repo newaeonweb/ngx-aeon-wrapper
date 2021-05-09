@@ -1,16 +1,9 @@
 import { NgModule } from '@angular/core';
-import { NgxAeonWrapperComponent } from './ngx-aeon-wrapper.component';
-
-
+import { NavbarModule } from './components/navbar/navbar.module';
 
 @NgModule({
-  declarations: [
-    NgxAeonWrapperComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    NgxAeonWrapperComponent
-  ]
+  declarations: [],
+  imports: [NavbarModule],
+  exports: [NavbarModule],
 })
-export class NgxAeonWrapperModule { }
+export class NgxAeonWrapperModule {}

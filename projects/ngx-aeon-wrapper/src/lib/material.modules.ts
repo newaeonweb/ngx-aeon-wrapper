@@ -14,7 +14,7 @@ import { NgModule } from '@angular/core';
 
 // *************** NAVIGATION ***************
 // import { MatMenuModule } from '@angular/material/menu';
-// import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 // *************** LAYOUT ***************
@@ -22,7 +22,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 // import { MatDividerModule } from '@angular/material/divider';
 // import { MatExpansionModule } from '@angular/material/expansion';
 // import { MatGridListModule } from '@angular/material/grid-list';
-// import { MatListModule } from '@angular/material/list';
+import { MatListModule } from '@angular/material/list';
 // import { MatStepperModule } from '@angular/material/stepper';
 // import { MatTabsModule } from '@angular/material/tabs';
 // import { MatTreeModule } from '@angular/material/tree';
@@ -32,7 +32,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 // import { MatButtonToggleModule } from '@angular/material/button-toggle';
 // import { MatBadgeModule } from '@angular/material/badge';
 // import { MatChipsModule } from '@angular/material/chips';
-// import { MatIconModule } from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 // import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 // import { MatProgressBarModule } from '@angular/material/progress-bar';
 // import { MatRippleModule } from '@angular/material/core';
@@ -63,13 +63,13 @@ const MATERIALIMPORTSEXPORTS = [
   // MatSliderModule,
   // MatSlideToggleModule,
   // MatMenuModule,
-  // MatSidenavModule,
+  MatSidenavModule,
   MatToolbarModule,
   // MatCardModule,
   // MatDividerModule,
   // MatExpansionModule,
   // MatGridListModule,
-  // MatListModule,
+  MatListModule,
   // MatStepperModule,
   // MatTabsModule,
   // MatTreeModule,
@@ -77,7 +77,7 @@ const MATERIALIMPORTSEXPORTS = [
   // MatButtonToggleModule,
   // MatBadgeModule,
   // MatChipsModule,
-  // MatIconModule,
+  MatIconModule,
   // MatProgressSpinnerModule,
   // MatProgressBarModule,
   // MatRippleModule,
@@ -105,4 +105,4 @@ const MATERIALIMPORTSEXPORTS = [
   //   },
   // ],
 })
-export class MaterialModule { }
+export class MaterialModule {}

@@ -6,4 +6,4 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   imports: [],
   exports: [NavbarComponent],
 })
-export class NgxAeonWrapperModule { }
+export class NgxAeonWrapperModule {}

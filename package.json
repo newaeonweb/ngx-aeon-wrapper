@@ -52,5 +52,12 @@
   },
   "engines": {
     "node": ">=15.0.0 <16.0.0"
+  },
+  "author": {
+    "name": "BarbaDev",
+    "url": "https://barbadev.netlify.app/"
+  },
+  "repository": {
+    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper"
   }
 }

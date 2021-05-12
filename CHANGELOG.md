@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v0.0.6...v0.0.7) (2021-05-12)
+
+
+### Features
+
+* update package ([cc35afa](https://github.com/newaeonweb/ngx-aeon-wrapper/commits/cc35afa061ef4ba6b31654e005eca94e346ae7f7))
+
 ### [0.0.6](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v0.0.5...v0.0.6) (2021-05-12)
 Updated readme files
 

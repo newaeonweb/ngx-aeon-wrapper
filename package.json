@@ -23,6 +23,8 @@
     "lint": "ng lint",
     "watch:lib": "ng build --prod ngx-aeon-wrapper --watch",
     "build:lib": "ng build --prod ngx-aeon-wrapper",
+    "pack:lib": "cd dist/ngx-aeon-wrapper && npm run package",
+    "package": "npm run build:lib && npm run pack:lib",
     "e2e": "ng e2e",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",

@@ -2,6 +2,19 @@
   "name": "ngx-aeon-wrapper",
   "description": "A component library to encapsulate Angular Material and any UI framework",
   "version": "0.0.7",
+  "author": {
+    "name": "BarbaDev",
+    "url": "https://barbadev.netlify.app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/newaeonweb/ngx-aeon-wrapper",
+  "bugs": {
+    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper/issues"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve example-app",
@@ -53,18 +66,5 @@
   },
   "engines": {
     "node": ">=15.0.0 <16.0.0"
-  },
-  "author": {
-    "name": "BarbaDev",
-    "url": "https://barbadev.netlify.app/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper.git"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/newaeonweb/ngx-aeon-wrapper",
-  "bugs": {
-    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper/issues"
   }
 }

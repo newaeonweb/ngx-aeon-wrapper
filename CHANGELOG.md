@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v0.0.7...v0.1.0) (2021-05-12)
+
+
+* added license and show docs on changelog ([0ef741f](https://github.com/newaeonweb/ngx-aeon-wrapper/commits/0ef741fb1bb69716a1607497b3fda7fb7d95301f))
+
 ### [0.0.7](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v0.0.6...v0.0.7) (2021-05-12)
 
 

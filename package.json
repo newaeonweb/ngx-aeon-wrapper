@@ -1,7 +1,7 @@
 {
   "name": "ngx-aeon-wrapper",
   "description": "A component library to encapsulate Angular Material and any UI framework",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "BarbaDev",
     "url": "https://barbadev.netlify.app/"
@@ -23,6 +23,8 @@
     "lint": "ng lint",
     "watch:lib": "ng build --prod ngx-aeon-wrapper --watch",
     "build:lib": "ng build --prod ngx-aeon-wrapper",
+    "pack:lib": "cd dist/ngx-aeon-wrapper && npm run package",
+    "package": "npm run build:lib && npm run pack:lib",
     "e2e": "ng e2e",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
@@ -32,10 +34,12 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.13",
+    "@angular/cdk": "^11.2.12",
     "@angular/common": "~11.2.13",
     "@angular/compiler": "~11.2.13",
     "@angular/core": "~11.2.13",
     "@angular/forms": "~11.2.13",
+    "@angular/material": "^11.2.12",
     "@angular/platform-browser": "~11.2.13",
     "@angular/platform-browser-dynamic": "~11.2.13",
     "@angular/router": "~11.2.13",

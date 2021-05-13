@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v0.1.0...v0.2.0) (2021-05-12)
+
+
+### Features
+
+* added Angular Material ([2d68f7f](https://github.com/newaeonweb/ngx-aeon-wrapper/commits/2d68f7fea0f1cd52c80516a75a48cef70cdd4d57))
+
+
+### Updated Docs
+
+*  show docs update on changelog ([dfd7070](https://github.com/newaeonweb/ngx-aeon-wrapper/commits/dfd70707a8be6b85a0931a5012ad59955e0e6289))
+
 ## [0.1.0](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v0.0.7...v0.1.0) (2021-05-12)
 
 

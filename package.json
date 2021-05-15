@@ -35,9 +35,6 @@
     "commit": "git-cz",
     "acp": "git add . && npm run commit && git push"
   },
-  "release": {
-    "pkgRoot": "dist/ngx-aeon-wrapper"
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.13",

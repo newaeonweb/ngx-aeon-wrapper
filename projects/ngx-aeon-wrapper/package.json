@@ -1,6 +1,6 @@
 {
   "name": "ngx-aeon-wrapper",
-  "version": "0.0.0",
+  "version": "0.0.0-semantically-released",
   "peerDependencies": {
     "@angular/animations": "^11.2.1",
     "@angular/cdk": "^11.2.12",

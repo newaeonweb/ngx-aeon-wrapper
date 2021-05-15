@@ -18,7 +18,7 @@ Just install like any other npm package:
 npm i ngx-aeon-wrapper
 ```
 
-## How to running this project
+## How to run this project
 
 Firsts we need to compile and generate the library using the following command:
 

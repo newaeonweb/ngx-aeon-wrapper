@@ -15,8 +15,12 @@
       "@angular/*": [
         "./node_modules/@angular/*"
       ],
+      "ngx-aeon-wrapper/*": [
+        "projects/ngx-aeon-wrapper/ngx-aeon-wrapper/*",
+        "projects/ngx-aeon-wrapper"
+      ],
       "ngx-aeon-wrapper": [
-        "dist/ngx-aeon-wrapper/ngx-aeon-wrapper",
+        "dist/ngx-aeon-wrapper/ngx-aeon-wrapper/*",
         "dist/ngx-aeon-wrapper"
       ]
     },

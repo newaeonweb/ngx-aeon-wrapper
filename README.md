@@ -10,10 +10,24 @@ By default we use Angular Material.
 
 Feel free to contribute.
 
-## How to use
+## How to use in your project
 
 Just install like any other npm package:
 
 ```
 npm i ngx-aeon-wrapper
+```
+
+## How to running this project
+
+Firsts we need to compile and generate the library using the following command:
+
+```
+ ng build --prod ngx-aeon-wrapper
+```
+
+Now, just start the server:
+
+```
+ng serve example-app
 ```

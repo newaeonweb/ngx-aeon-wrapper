@@ -1,22 +1,45 @@
 {
   "name": "ngx-aeon-wrapper",
   "description": "A component library to encapsulate Angular Material and any UI framework",
-  "version": "0.0.3",
+  "version": "0.2.0",
+  "author": {
+    "name": "BarbaDev",
+    "url": "https://barbadev.netlify.app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/newaeonweb/ngx-aeon-wrapper",
+  "bugs": {
+    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper/issues"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod",
+    "start": "ng serve example-app",
+    "build": "ng build --prod example-app",
     "test": "ng test",
     "lint": "ng lint",
-    "watch:lib": "ng build --prod ngx-aeon-wrapper --watch"
+    "watch:lib": "ng build --prod ngx-aeon-wrapper --watch",
+    "build:lib": "ng build --prod ngx-aeon-wrapper",
+    "pack:lib": "cd dist/ngx-aeon-wrapper && npm run package",
+    "package": "npm run build:lib && npm run pack:lib",
+    "e2e": "ng e2e",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.13",
+    "@angular/cdk": "^11.2.12",
     "@angular/common": "~11.2.13",
     "@angular/compiler": "~11.2.13",
     "@angular/core": "~11.2.13",
     "@angular/forms": "~11.2.13",
+    "@angular/material": "^11.2.12",
     "@angular/platform-browser": "~11.2.13",
     "@angular/platform-browser-dynamic": "~11.2.13",
     "@angular/router": "~11.2.13",
@@ -40,6 +63,7 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^11.2.4",
     "protractor": "~7.0.0",
+    "standard-version": "^9.3.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"

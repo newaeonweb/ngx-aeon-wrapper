@@ -21,6 +21,7 @@
     "build": "ng build --prod example-app",
     "test": "ng test",
     "lint": "ng lint",
+    "lint:lib": "ng lint ngx-aeon-wrapper",
     "watch:lib": "ng build --prod ngx-aeon-wrapper --watch",
     "build:lib": "ng build --prod ngx-aeon-wrapper",
     "pack:lib": "cd dist/ngx-aeon-wrapper && npm run package",
@@ -32,7 +33,10 @@
     "release:major": "standard-version --release-as major",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
-    "acp":"git add . && npm run commit && git push"
+    "acp": "git add . && npm run commit && git push"
+  },
+  "release": {
+    "pkgRoot": "dist/ngx-aeon-wrapper"
   },
   "private": true,
   "dependencies": {
@@ -54,10 +58,13 @@
     "@angular-devkit/build-angular": "~0.1102.12",
     "@angular/cli": "~11.2.12",
     "@angular/compiler-cli": "~11.2.13",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.1.0",
@@ -79,6 +86,17 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run lint:lib",
+      "commit-msg": "commitlint --edit"
     }
   }
 }

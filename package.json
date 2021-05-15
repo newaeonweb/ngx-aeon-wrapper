@@ -31,7 +31,8 @@
     "release:patch": "standard-version --release-as patch",
     "release:major": "standard-version --release-as major",
     "semantic-release": "semantic-release",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "acp":"git add . && npm run commit && git push"
   },
   "private": true,
   "dependencies": {

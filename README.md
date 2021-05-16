@@ -20,13 +20,13 @@ npm i ngx-aeon-wrapper
 
 ## How to run this project
 
-Firsts we need to compile and generate the library using the following command:
+First we need to compile and generate the library using the following command:
 
 ```
  ng build --prod ngx-aeon-wrapper
 ```
 
-Now, just start the server:
+Now, just start the server, to see the example app running:
 
 ```
 ng serve example-app

@@ -1,7 +1,7 @@
 {
   "branches": "master",
   "repositoryUrl": "https://github.com/newaeonweb/ngx-aeon-wrapper",
-  "pkgRoot": "./dist/ngx-aeon-wrapper",
+  "pkgRoot": "dist/ngx-aeon-wrapper",
   "debug": "true",
   "plugins": [
     "@semantic-release/commit-analyzer",

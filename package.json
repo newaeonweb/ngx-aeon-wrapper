@@ -1,7 +1,7 @@
 {
   "name": "ngx-aeon-wrapper",
   "description": "A component library to encapsulate Angular Material and any UI framework",
-  "version": "0.0.0-development",
+  "version": "1.2.3",
   "author": {
     "name": "BarbaDev",
     "url": "https://barbadev.netlify.app/"
@@ -78,5 +78,11 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "release": {
+    "pkgRoot": "dist/ngx-aeon-wrapper"
   }
 }

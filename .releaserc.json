@@ -1,29 +1,5 @@
 {
   "branches": "master",
   "repositoryUrl": "https://github.com/newaeonweb/ngx-aeon-wrapper",
-  "pkgRoot": "dist/ngx-aeon-wrapper",
-  "debug": "true",
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/npm",
-    "@semantic-release/github",
-    [
-      "@semantic-release/changelog",
-      {
-        "changelogFile": "CHANGELOG.md"
-      }
-    ],
-    [
-      "@semantic-release/git",
-      {
-        "assets": [
-          "package.json",
-          "package-lock.json",
-          "CHANGELOG.md"
-        ],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
-    ]
-  ]
+  "pkgRoot": "dist/ngx-aeon-wrapper/"
 }

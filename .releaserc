@@ -1,0 +1,4 @@
+{
+  "branches": ["master"],
+  "pkgRoot": "dist/ngx-aeon-wrapper"
+}

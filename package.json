@@ -1,14 +1,14 @@
 {
   "name": "ngx-aeon-wrapper",
   "description": "A component library to encapsulate Angular Material and any UI framework",
-  "version": "1.2.3",
+  "version": "0.0.0-development",
   "author": {
     "name": "BarbaDev",
     "url": "https://barbadev.netlify.app/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newaeonweb/ngx-aeon-wrapper.git"
+    "url": "https://github.com/newaeonweb/ngx-aeon-wrapper.git"
   },
   "license": "MIT",
   "homepage": "https://github.com/newaeonweb/ngx-aeon-wrapper",

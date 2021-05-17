@@ -18,7 +18,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve example-app",
-    "build": "ng build --prod example-app",
+    "build": "ng build example-app --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "lint:lib": "ng lint ngx-aeon-wrapper",

@@ -1,27 +1,31 @@
-# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
-# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
-
-name: Node.js Package
-
+name: Release
 on:
   push:
-    branches: [master]
+    branches:
+      - master
   pull_request:
-    branches: "*"
-
+    branches: '*'
 jobs:
-  build:
+  release:
+    name: Release
     runs-on: ubuntu-latest
-    if: ${{github.ref == 'refs/heads/master'}}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          node-version: 16.1.0
-      - run: npm ci
-      - run: npm run build:lib
-      - run: npm run build --if-present
-      - run: npx semantic-release
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: npm ci
+      - name: Build the library
+        run: npm run build:library
+      - name: Build the example app
+        run: npm run build
+      - name: Release
         env:
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-          GT: ${{secrets.GT}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release

@@ -4,12 +4,15 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches: [master]
+  pull_request:
+    branches: "*"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: ${{github.ref == 'refs/heads/master'}}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2

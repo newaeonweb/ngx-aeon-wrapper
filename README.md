@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
+[![Release](https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml)
+
 ## What is it or what does this project do?
 
 The intention of this project is to create reusable components encapsulating their use, so it is possible to use any UI framework such as Angular Material, Bootstrap, Bulma, among others.

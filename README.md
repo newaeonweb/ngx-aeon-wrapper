@@ -67,3 +67,17 @@ Now, just start the server, to see the example app running:
 ```
 ng serve example-app
 ```
+
+## Docs
+
+We are using compodoc for our library, and you can generate on your local machine using the following command:
+
+```
+ ng run build:doc
+```
+
+Now after, run:
+
+```
+ ng run doc
+```

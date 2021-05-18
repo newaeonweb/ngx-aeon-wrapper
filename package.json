@@ -29,7 +29,9 @@
     "e2e": "ng e2e",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
-    "acp": "git add . && npm run commit && git push"
+    "acp": "git add . && npm run commit && git push",
+    "build:doc": "./node_modules/.bin/compodoc -p projects/ngx-aeon-wrapper/tsconfig.lib.json --theme readthedocs -d dist/documentation/compodoc ",
+    "docs": "cd dist/documentation/compodoc && npx http-server -o"
   },
   "private": false,
   "dependencies": {
@@ -43,6 +45,7 @@
     "@angular/platform-browser": "~11.2.12",
     "@angular/platform-browser-dynamic": "~11.2.12",
     "@angular/router": "~11.2.12",
+    "@compodoc/compodoc": "^1.1.11",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"

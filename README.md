@@ -1,21 +1,28 @@
-# NgxAeonWrapper
+<h1 align="center">NgxAeonWrapper</h1>  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+<p align="center">
+  <small>
+    This project was generated with Angular CLI version 11.2.12.
+  </small>
+</p>
 
+<p align="center">
+  <a href="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml">
+    <img alt="npm latest version" src="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml/badge.svg">
+  </a>
 
-<a href="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml">
-  <img alt="npm latest version" src="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml/badge.svg">
-</a>
+  <a href="https://www.npmjs.com/package/ngx-aeon-wrapper">
+    <img alt="npm latest version" src="https://img.shields.io/npm/v/semantic-release/latest.svg">
+  </a>
 
-<a href="https://www.npmjs.com/package/ngx-aeon-wrapper">
-  <img alt="npm latest version" src="https://img.shields.io/npm/v/semantic-release/latest.svg">
-</a>
+  <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
 
-<img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+  <a href="https://www.npmjs.com/ngx-aeon-wrapper">
+    <img src="https://img.shields.io/npm/v/ngx-aeon-wrapper.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
+  </a>
+</p>
 
-<a href="https://www.npmjs.com/ngx-aeon-wrapper">
-  <img src="https://img.shields.io/npm/v/ngx-aeon-wrapper.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
-</a>
+---
 
 ## What is it or what does this project do?
 
@@ -32,6 +39,14 @@ Just install like any other npm package:
 ```
 npm i ngx-aeon-wrapper
 ```
+
+Import into your application:
+
+```
+import { NgxAeonWrapperModule } from 'ngx-aeon-wrapper';
+```
+
+> At the moment this library contain just one `cw-navbar` component. 
 
 ## How to run this project
 

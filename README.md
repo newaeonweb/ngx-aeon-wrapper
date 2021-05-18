@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <a href="https://angular.io/guide/styleguide">
+    <img alt="npm latest version" src="https://mgechev.github.io/angular2-style-guide/images/badge.svg">
+  </a>
+
   <a href="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml">
     <img alt="npm latest version" src="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml/badge.svg">
   </a>
@@ -33,6 +37,8 @@ By default we use Angular Material.
 Feel free to contribute.
 
 ## How to use in your project
+
+Check the demo project on [stackblitz](https://stackblitz.com/edit/angular-ngx-aeon-wrapper-demo?file=src/app/app.component.ts).
 
 Just install like any other npm package:
 

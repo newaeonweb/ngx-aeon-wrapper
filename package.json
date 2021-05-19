@@ -93,8 +93,5 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "release": {
-    "pkgRoot": "dist/ngx-aeon-wrapper"
   }
 }

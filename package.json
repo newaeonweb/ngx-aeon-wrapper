@@ -32,7 +32,10 @@
     "commit": "git-cz",
     "acp": "git add . && npm run commit && git push",
     "build:doc": "./node_modules/.bin/compodoc -p projects/ngx-aeon-wrapper/tsconfig.lib.json --theme readthedocs -d dist/documentation/compodoc ",
-    "docs": "cd dist/documentation/compodoc && npx http-server -o"
+    "docs": "cd dist/documentation/compodoc && npx http-server -o",
+    "adjust-version": "npm-run-all adjust-version:*",
+    "adjust-version:lib": "rjp projects/ngx-aeon-wrapper/package.json version $VERSION",
+    "adjust-version:main": "rjp package.json version $VERSION"
   },
   "private": false,
   "dependencies": {
@@ -56,6 +59,7 @@
     "@angular/cli": "~11.2.12",
     "@angular/compiler-cli": "~11.2.12",
     "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
@@ -71,6 +75,7 @@
     "karma-jasmine-html-reporter": "1.6.0",
     "ng-packagr": "^11.2.4",
     "protractor": "~7.0.0",
+    "replace-json-property": "^1.6.3",
     "semantic-release": "^17.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",

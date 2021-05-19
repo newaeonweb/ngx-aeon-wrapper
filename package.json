@@ -1,7 +1,7 @@
 {
   "name": "ngx-aeon-wrapper",
   "description": "A component library to encapsulate Angular Material and any UI framework",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "author": {
     "name": "BarbaDev",
     "url": "https://barbadev.netlify.app/"
@@ -35,8 +35,8 @@
     "docs": "cd dist/documentation/compodoc && npx http-server -o",
     "get-version": "echo $npm_package_version",
     "adjust-version": "npm-run-all adjust-version:*",
-    "adjust-version:lib": "rjp projects/ngx-aeon-wrapper/package.json version $npm_package_version",
-    "adjust-version:main": "rjp package.json version $npm_package_version"
+    "adjust-version:lib": "rjp projects/ngx-aeon-wrapper/package.json version $VERSION",
+    "adjust-version:main": "rjp package.json version $VERSION"
   },
   "private": false,
   "dependencies": {

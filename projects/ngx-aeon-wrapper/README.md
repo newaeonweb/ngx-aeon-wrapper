@@ -1,6 +1,32 @@
-# NgxAeonWrapper
+<h1 align="center">NgxAeonWrapper</h1>  
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13.
+<p align="center">
+  <small>
+    This project was generated with Angular CLI version 11.2.12.
+  </small>
+</p>
+
+<p align="center">
+  <a href="https://angular.io/guide/styleguide">
+    <img alt="npm latest version" src="https://mgechev.github.io/angular2-style-guide/images/badge.svg">
+  </a>
+
+  <a href="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml">
+    <img alt="npm latest version" src="https://github.com/newaeonweb/ngx-aeon-wrapper/actions/workflows/npm-publish.yml/badge.svg">
+  </a>
+
+  <a href="https://www.npmjs.com/package/ngx-aeon-wrapper">
+    <img alt="npm latest version" src="https://img.shields.io/npm/v/semantic-release/latest.svg">
+  </a>
+
+  <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+
+  <a href="https://www.npmjs.com/ngx-aeon-wrapper">
+    <img src="https://img.shields.io/npm/v/ngx-aeon-wrapper.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
+  </a>
+</p>
+
+---
 
 ## What is it or what does this project do?
 
@@ -10,7 +36,9 @@ By default we use Angular Material.
 
 Feel free to contribute.
 
-## How to use
+## How to use in your project
+
+Check the demo project on [stackblitz](https://stackblitz.com/edit/angular-ngx-aeon-wrapper-demo?file=src/app/app.component.ts).
 
 Just install like any other npm package:
 
@@ -18,24 +46,38 @@ Just install like any other npm package:
 npm i ngx-aeon-wrapper
 ```
 
-## Code scaffolding
+Import into your application:
 
-Run `ng generate component component-name --project ngx-aeon-wrapper` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-aeon-wrapper`.
+```
+import { NgxAeonWrapperModule } from 'ngx-aeon-wrapper';
+```
 
-> Note: Don't forget to add `--project ngx-aeon-wrapper` or else it will be added to the default project in your `angular.json` file.
+> At the moment this library contain just one `cw-navbar` component. 
 
-## Build
+## How to run this project
 
-Run `ng build ngx-aeon-wrapper` to build the project. The build artifacts will be stored in the `dist/` directory.
+First we need to compile and generate the library using the following command:
 
-## Publishing
+```
+ ng build --prod ngx-aeon-wrapper
+```
 
-After building your library with `ng build ngx-aeon-wrapper`, go to the dist folder `cd dist/ngx-aeon-wrapper` and run `npm publish`.
+Now, just start the server, to see the example app running:
 
-## Running unit tests
+```
+ng serve example-app
+```
 
-Run `ng test ngx-aeon-wrapper` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Docs
 
-## Further help
+We are using compodoc for our library, and you can generate on your local machine using the following command:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+ ng run build:doc
+```
+
+Now after, run:
+
+```
+ ng run doc
+```

@@ -22,7 +22,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "lint:lib": "ng lint ngx-aeon-wrapper",
-    "copy:readme": "./node_modules/.bin/copyfiles ./README.md ./dist/ngx-aeon-wrapper",
+    "copy:readme": "./node_modules/.bin/copyfiles ./README.md ./projects/ngx-aeon-wrapper",
     "watch:lib": "ng build --prod ngx-aeon-wrapper --watch",
     "build:lib": "npm run copy:readme && ng build ngx-aeon-wrapper --prod",
     "pack:lib": "cd dist/ngx-aeon-wrapper && npm pack",

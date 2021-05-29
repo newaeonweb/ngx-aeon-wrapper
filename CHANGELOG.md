@@ -1,3 +1,11 @@
+## [2.0.3](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.2...v2.0.3) (2021-05-29)
+
+
+### Bug Fixes
+
+* delete dist folder before generate lib ([222e837](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/222e837f2237ad8cf6fa12412aab4ae65e0e9ccc))
+* removed deprecated flag ([e4cea96](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/e4cea966b317cdede7c6aab8958d8606562bc195))
+
 ## [2.0.2](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.1...v2.0.2) (2021-05-29)
 
 

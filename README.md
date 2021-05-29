@@ -1,8 +1,8 @@
-<h1 align="center">NgxAeonWrapper</h1>  
+<h1 align="center">NgxAeonWrapper</h1>
 
 <p align="center">
   <small>
-    This project was generated with Angular CLI version 11.2.12.
+    This project was generated with Angular CLI version 11.2.12. But was updated to Angular v12.
   </small>
 </p>
 
@@ -52,7 +52,7 @@ Import into your application:
 import { NgxAeonWrapperModule } from 'ngx-aeon-wrapper';
 ```
 
-> At the moment this library contain just one `cw-navbar` component. 
+> At the moment this library contain just one `cw-navbar` component.
 
 ## How to run this project
 

@@ -1,3 +1,11 @@
+## [2.0.5](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.4...v2.0.5) (2021-05-29)
+
+
+### Bug Fixes
+
+* add production flag ([d7baa11](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/d7baa11e24a4b73b2b13d328972e5e2b0cecda43))
+* set aot true ([5ac391b](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/5ac391b0e472ddce6a9fd9aa8aaeacf7c07c985d))
+
 ## [2.0.4](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.3...v2.0.4) (2021-05-29)
 
 

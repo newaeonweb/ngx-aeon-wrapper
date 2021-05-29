@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v1.5.1...v2.0.0) (2021-05-29)
+
+
+### Features
+
+* **ng lint:** now using Eslint and Angular v12 ([9dae59e](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/9dae59e2abc90b90ddfb7334e17d8a5eddbd4669))
+
+
+### BREAKING CHANGES
+
+* **ng lint:** Now tests are made by eslint
+
 ## [1.5.1](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v1.5.0...v1.5.1) (2021-05-29)
 
 

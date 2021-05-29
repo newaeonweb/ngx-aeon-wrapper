@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.0...v2.0.1) (2021-05-29)
+
+
+### Bug Fixes
+
+* replaced flag --prod ([8e2cfaa](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/8e2cfaa822f0a413fed4614eeadc9b9a21a45b8c))
+
 # [2.0.0](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v1.5.1...v2.0.0) (2021-05-29)
 
 

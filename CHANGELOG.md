@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.3...v2.0.4) (2021-05-29)
+
+
+### Bug Fixes
+
+* enabled ivy compilation ([29280af](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/29280af4f0fa5ae6b7340e585a7d89e57cf24690))
+
 ## [2.0.3](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.2...v2.0.3) (2021-05-29)
 
 

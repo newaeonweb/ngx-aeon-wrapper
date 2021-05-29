@@ -30,14 +30,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/ngx-aeon-wrapper/tsconfig.lib.json",
-              "projects/ngx-aeon-wrapper/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/ngx-aeon-wrapper/**/*.ts",
+              "projects/ngx-aeon-wrapper/**/*.html"
             ]
           }
         }
@@ -143,15 +140,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/example-app/tsconfig.app.json",
-              "projects/example-app/tsconfig.spec.json",
-              "projects/example-app/e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/example-app/**/*.ts",
+              "projects/example-app/**/*.html"
             ]
           }
         },
@@ -170,5 +163,8 @@
       }
     }
   },
-  "defaultProject": "ngx-aeon-wrapper"
+  "defaultProject": "ngx-aeon-wrapper",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }

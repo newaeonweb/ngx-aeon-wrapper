@@ -57,6 +57,11 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.0.2",
+    "@angular-eslint/builder": "12.0.0",
+    "@angular-eslint/eslint-plugin": "12.0.0",
+    "@angular-eslint/eslint-plugin-template": "12.0.0",
+    "@angular-eslint/schematics": "12.0.0",
+    "@angular-eslint/template-parser": "12.0.0",
     "@angular/cli": "~12.0.2",
     "@angular/compiler-cli": "~12.0.2",
     "@semantic-release/changelog": "^5.0.1",
@@ -64,9 +69,11 @@
     "@semantic-release/git": "^9.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "4.23.0",
+    "@typescript-eslint/parser": "4.23.0",
     "copyfiles": "^2.4.1",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.26.0",
     "jasmine-core": "3.7.1",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.3.2",
@@ -80,7 +87,6 @@
     "replace-json-property": "^1.6.3",
     "semantic-release": "^17.4.3",
     "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
     "typescript": "4.2.4"
   },
   "engines": {

@@ -73,7 +73,7 @@
             "sourceMap": true,
             "optimization": false,
             "namedChunks": true,
-            "aot": true
+            "aot": false
           },
           "configurations": {
             "production": {

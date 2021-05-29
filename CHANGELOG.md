@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.1...v2.0.2) (2021-05-29)
+
+
+### Bug Fixes
+
+* set node versiont o LTS ([3151557](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/3151557963b06b3d3493e177bc89fed2cc52a6ad))
+
 ## [2.0.1](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.0...v2.0.1) (2021-05-29)
 
 

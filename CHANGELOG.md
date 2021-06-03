@@ -1,3 +1,11 @@
+## [2.0.6](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.5...v2.0.6) (2021-06-03)
+
+
+### Bug Fixes
+
+* added beta channel to fix version bump ([624511e](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/624511e2874471d2c454d2906c2de61692616f32))
+* fix branch name ([ec39e82](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/ec39e821bd1b25083681eb68ce9fde2c87118961))
+
 ## [2.0.5](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.4...v2.0.5) (2021-05-29)
 
 

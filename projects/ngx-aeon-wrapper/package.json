@@ -1,6 +1,6 @@
 {
   "name": "ngx-aeon-wrapper",
-  "version": "2.0.9",
+  "version": "2.0.10-beta.1",
   "description": "A component library to encapsulate Angular Material and any UI framework",
   "author": {
     "name": "BarbaDev",

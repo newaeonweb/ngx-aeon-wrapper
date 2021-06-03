@@ -1,3 +1,10 @@
+## [2.0.10-beta.1](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.9...v2.0.10-beta.1) (2021-06-03)
+
+
+### Bug Fixes
+
+* added branch beta to deploy ([38f0ade](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/38f0adefada4c36d5397082484bff8b7a1573168))
+
 ## [2.0.9](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.8...v2.0.9) (2021-06-03)
 
 

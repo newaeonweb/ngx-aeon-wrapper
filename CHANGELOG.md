@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.6...v2.0.7) (2021-06-03)
+
+
+### Bug Fixes
+
+* branch name ([e3ec808](https://github.com/newaeonweb/ngx-aeon-wrapper/commit/e3ec808dfc03d474cd6f9b8f32361ebbdccc121f))
+
 ## [2.0.6](https://github.com/newaeonweb/ngx-aeon-wrapper/compare/v2.0.5...v2.0.6) (2021-06-03)
 
 

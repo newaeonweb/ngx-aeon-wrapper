@@ -19,7 +19,7 @@
     "@semantic-release/github"
   ],
   branches: [
-    {name: 'main'},
+    {name: 'master'},
     {name: 'beta', channel: 'beta', prerelease: 'beta'}
   ]
 }
